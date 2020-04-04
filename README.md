@@ -1,0 +1,1 @@
+Nice article about reducing server lag: [www.spigotmc.org/wiki/reducing-lag/](https://www.spigotmc.org/wiki/reducing-lag/)
