@@ -1,0 +1,22 @@
+groups:
+  Player:
+    default: true
+    info:
+      prefix: ''
+      suffix: ''
+      build: true
+    inheritance:
+    permissions:
+  Moderator:
+    default: false
+    info:
+      prefix: ''
+      suffix: ''
+      build: true
+    inheritance:
+      - Player
+    permissions:
+      - coreprotect.inspect
+      - coreprotect.lookup
+      - coreprotect.help
+
