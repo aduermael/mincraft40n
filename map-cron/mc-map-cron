@@ -1,0 +1,1 @@
+00 03 * * * root docker start mc-map-renderer >> /var/log/cron.log 2>&1

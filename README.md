@@ -1,12 +1,11 @@
 Docker run:
 
 ```shell
-docker run -ti -d --name mcserver \
--e MEMORYSIZE='50G' \
--v /home/docker-user/mcserver:/data:rw \
+docker run -ti -d \
+--name mcserver \
+-e MEMORYSIZE='40G' \
+-v /mcserver:/data:rw \
 -p 25565:25565 \
--p 25575:25575 \
--p 80:8123 \
 marctv/minecraft-papermc-server:latest
 ```
 
